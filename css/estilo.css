@@ -1,0 +1,263 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #c9c5c5; 
+    overflow-x: hidden; /* Impede a rolagem horizontal */
+}
+
+.phone-section{
+    text-align: right;
+    font-family: sans-serif;
+}
+
+header, footer {
+    background-color: #333;
+    color: #fff;
+    padding: 30px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;   
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+.slider {
+    max-width: 1100px; 
+    margin: 0 auto; 
+    align-items: center;
+}
+
+.slider img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-height: 400px;
+    height: auto;
+}
+
+article {
+    width: 80%;
+    max-width: 100%;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    padding: 20px;
+    
+}
+
+.container p {
+    padding: 5px;
+}
+
+.test-title {
+    padding: 5px;
+    font-weight: bold;
+}
+
+.test-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.test-text {
+    margin-right: 20px; 
+    text-align: left;
+}
+
+.test-icon {
+    max-width: 100%; 
+    height: auto;   
+}
+
+.container .test-section img {
+    max-width: 20%; 
+    height: auto;    
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    padding: 40px;
+}
+
+.image-gallery figure {
+    margin: 10px;
+}
+
+.image-gallery img {
+    max-width: 100%;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+}
+
+figcaption {
+    text-align: center;
+    padding: 10px;
+}
+
+figure p {
+    text-align: center;
+    padding: 5px;
+}
+
+figure p a {
+    color: #fff !important;
+    font-weight: bold;
+    font-family:  sans-serif;
+    border-radius: 50px;
+    background-color: #333;
+    padding: 8px 20px;
+    display: inline-block;
+    text-decoration: none;
+    border: 2px solid #333; 
+    transition: background-color 0.3s;  
+}
+
+
+figure p a:hover {
+    background-color: #fff; 
+    border-color: #333; 
+    color: #000 !important; 
+}
+
+.white-layout {
+    padding: 20px;
+}
+
+.white-layout a {
+    color: black;
+    font-weight: bold;
+    font-family: sans-serif;
+    border: 1px solid transparent;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: border 0.3s ease, background-color 0.3s ease; 
+}
+
+.white-layout a:hover {
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #ddd; 
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+footer ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+footer ul li a {
+    color: #fff !important;
+    text-decoration: none;
+    border: 1px solid transparent;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: border 0.3s ease, background-color 0.3s ease;
+}
+
+footer ul li a:hover {
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background-color: #ddd;
+    color: #000 !important;
+}
+
+footer {
+    padding: 40px;
+}
+
+footer ul li a {
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    header,
+    footer {
+        padding: 20px;
+    }
+
+    nav ul {
+        padding: 10px;
+    }
+
+    nav ul li {
+        margin-right: 5px;
+    }
+
+    .slider img {
+        max-height: 200px;
+    }
+
+    article {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .container .test-section img {
+        max-width: 50%;
+    }
+
+    .image-gallery {
+        padding: 20px;
+    }
+
+    .image-gallery img {
+        width: 100px;
+        height: 100px;
+        padding: 5px;
+    }
+
+    figcaption,
+    figure p {
+        padding: 5px;
+    }
+
+    figure p a {
+        padding: 5px 10px;
+    }
+
+    footer {
+        padding: 20px;
+    }
+}
+
+
+
+
+
